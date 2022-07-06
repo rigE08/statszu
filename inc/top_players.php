@@ -30,7 +30,7 @@ require 'inc/scripts.php';
                         <tr>
                             <th scope='col'>#</th>
                             <th scope='col'>PLAYER</th>
-                            <th scope='col'>STEAMID</th>
+                            <th class='d-none' scope='col'>STEAMID</th>
                             <th scope='col'>POINTS</th>
                             <th scope='col'>RANK</th>
                             <th scope='col'>KILLS</th>
@@ -75,7 +75,7 @@ require 'inc/scripts.php';
                         <tr>
                             <th>$rank</th>
                             <th><a href='showplayer.php?id=". $id ."'>$name</a></th>
-                            <th>$steamid</th>
+                            <th class='d-none'>$steamid</th>
                             <th>$score</th>
                             <th>$rankimg</th>
                             <th>$kills</th>
