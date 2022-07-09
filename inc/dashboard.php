@@ -127,7 +127,7 @@ require 'inc/function.php';
                       echo"
                         <tr>
                             <th>$rank</th>
-                            <th><a href='showplayer.php?id=". $id ."'>$name</a></th>
+                            <th><a href='player.php?id=". $id ."'>$name</a></th>
                             <th>$score</th>
                             <th>$rankimg</th>
                             <th>$kills</th>

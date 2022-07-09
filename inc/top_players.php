@@ -74,7 +74,7 @@ require 'inc/scripts.php';
                       echo"
                         <tr>
                             <th>$rank</th>
-                            <th><a href='showplayer.php?id=". $id ."'>$name</a></th>
+                            <th><a href='player.php?id=". $id ."'>$name</a></th>
                             <th class='d-none'>$steamid</th>
                             <th>$score</th>
                             <th>$rankimg</th>

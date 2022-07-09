@@ -17,22 +17,7 @@
 <body>
 
 <header>
-  <!--BG Animatie-->
-  <div class="area" >
-      <ul class="circles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-      </ul>
-</div >
-  <!--BG Animatie-->
+
 
   <!-- Navbar -->
   <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-grey fixed-top">
@@ -55,15 +40,15 @@
         <ul id="sidebarMenu" class="navbar-nav collapse navbar-collapse">
 
           <!-- Links -->
-          <li class="nav-item me-0 me-lg-3 mt-1 ">
-            <a class="nav-link" href="index.php">
-            <h6 class="butonnav">Dashboard</h6>
+          <li class="nav-item me-0 me-lg-3 mt-1 active">
+            <a class="nav-link" aria-current="page" href="index.php">
+            Dashboard
             </a>
             </li>
             
             <li class="nav-item me-0 me-lg-3 mt-1">
               <a class="nav-link" href="points.php">
-              <h6 class="butonnav">Points</h6>
+              Top
               </a>
               </li>
 
@@ -109,11 +94,24 @@
       <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
+    
 </header>
+<div class="loader-wrapper">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
+<script src="https://use.fontawesome.com/5c7e6be65d.js"></script>
 <script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="js/activePage.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap5.min.js"></script>
 </body>
+<script>
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
+
+
+</script>
 </html>

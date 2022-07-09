@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <title>ZUTV STATS</title>
 
 </head>
+
 <body>
       <!--BG Animatie-->
-  <div class="area" >
-      <ul class="circles">
+  <div class="area2" >
+      <ul class="circles2">
               <li></li>
               <li></li>
               <li></li>
@@ -24,13 +26,17 @@
       </ul>
 </div >
   <!--BG Animatie-->
-    <?php require 'inc/navbar.php';?>
+    <?php require 'inc/navbar.php'; ?>
     <main class="scrollbar" style="margin-top: 80px;">
-    <div class="container pt-4">
-    <?php require 'inc/dashboard.php';?>
-    </div>
+        <div class="container pt-4">
+
+            <?php require 'inc/playerprofile.php';?>
+
+
+        </div><!-- Final div-->
     </main>
-    
+
 </body>
-<?php require 'inc/scripts.php';?>
+<?php require 'inc/scripts.php'; ?>
+
 </html>

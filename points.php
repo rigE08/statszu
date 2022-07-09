@@ -9,6 +9,22 @@
 
 </head>
 <body>
+      <!--BG Animatie-->
+  <div class="area" >
+      <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>
+</div >
+  <!--BG Animatie-->
     <?php require 'inc/navbar.php';?>
     <main class="scrollbar" style="margin-top: 80px;">
     <div class="container pt-4">
